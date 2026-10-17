@@ -1,0 +1,61 @@
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+    background-color: blanchedalmond;
+}
+
+.container {
+    background: white;
+    width: 900px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.child {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.col {
+    width: 48%;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 5px 0;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    height: 16px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#mainError {
+    color: red;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}

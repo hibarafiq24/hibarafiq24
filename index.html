@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <div class="container">
+        <h1>REGISTRATION FORM</h1>
+        <hr>
+
+        <div class="child">
+            <div class="col">
+                <label>NAME:</label>
+                <input class="input" type="text" placeholder="ENTER NAME">
+                <p class="error"></p>
+
+                <label>DOB:</label>
+                <input class="input" type="date">
+                <p class="error"></p>
+
+                <label>EMAIL:</label>
+                <input class="input" type="email" placeholder="ENTER EMAIL">
+                <p class="error"></p>
+
+                <label>CONFIRM PASSWORD:</label>
+                <input class="input" type="password" placeholder="CONFIRM PASSWORD">
+                <p class="error"></p>
+            </div>
+
+            <div class="col">
+                <label>FATHER NAME:</label>
+                <input class="input" type="text" placeholder="ENTER FATHER NAME">
+                <p class="error"></p>
+
+                <label>GENDER:</label>
+                <select class="input">
+                    <option value="">Select</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Prefer not to say</option>
+                </select>
+                <p class="error"></p>
+
+                <label>PASSWORD:</label>
+                <input class="input" type="password" placeholder="ENTER PASSWORD">
+                <p class="error"></p>
+            </div>
+        </div>
+
+        <div class="button">
+            <button type="button" onclick="abc()">SUBMIT</button>
+        </div>
+
+        <p id="mainError"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
